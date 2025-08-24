@@ -54,7 +54,7 @@ function addGradeOnlyEntry() {
   const div = document.createElement('div');
   div.className = 'grade-only-entry';
   div.innerHTML = `
-    <select><option value="">-- Select Team --</option><option>Hamdhala</option><option>Basmala</option></select>
+    <select><option value="">-- Select Team --</option><option>ريح المحبة</option><option>طيب المحبة</option></select>
     <input type="text" placeholder="Student Name" />
     <input type="text" placeholder="Chess No." />
     <select><option value="">-- Grade --</option><option>A</option><option>B</option><option>C</option></select>

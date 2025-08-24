@@ -12,27 +12,26 @@
   <h2>🎯 Competition Score Entry</h2>
 
   <div class="entry no-print">
-   <div style="max-width: 400px;  padding: 20px;">
-  <label for="category">Category:</label><br>
-  <select id="category"
-    style="width: 100%; padding: 12px; font-size: 18px; border-radius: 12px; margin-top: 8px; ">
-    <option value="">-- Select Category --</option>
-    <option>kides Boys</option>
-    <option>kides Girls</option>
-    <option>Sub Junior Boys</option>
-    <option>Sub Junior Girls</option>
-    <option>Junior Boys</option>
-    <option>Junior Girls</option>
-    <option>Senior Boys</option>
-    <option>Senior Girls</option>
-    <option>General Boys</option>
-    <option>General Girls</option>
-  </select><br><br>
+    <div style="max-width: 400px;  padding: 20px;">
+      <label for="category">Category:</label><br>
+      <select id="category" style="width: 100%; padding: 12px; font-size: 18px; border-radius: 12px; margin-top: 8px; ">
+        <option value="">-- Select Category --</option>
+        <option>kides Boys</option>
+        <option>kides Girls</option>
+        <option>Sub Junior Boys</option>
+        <option>Sub Junior Girls</option>
+        <option>Junior Boys</option>
+        <option>Junior Girls</option>
+        <option>Senior Boys</option>
+        <option>Senior Girls</option>
+        <option>General Boys</option>
+        <option>General Girls</option>
+      </select><br><br>
 
-  <label for="event">Program Name:</label><br>
-  <input type="text" id="event" placeholder="e.g. Recitation"
-    style="width: 100%; padding: 12px; font-size: 18px; border-radius: 12px; margin-top: 8px; " />
-</div>
+      <label for="event">Program Name:</label><br>
+      <input type="text" id="event" placeholder="e.g. Recitation"
+        style="width: 100%; padding: 12px; font-size: 18px; border-radius: 12px; margin-top: 8px; " />
+    </div>
 
 
     <h4>🥇 First Place</h4>
@@ -55,7 +54,7 @@
     <h4>🥈 Second Place</h4>
     <select id="second-team">
       <option value="">-- Select Team --</option>
-     <option>ريح المحبة</option>
+      <option>ريح المحبة</option>
       <option>طيب المحبة</option>
 
     </select>
@@ -111,35 +110,35 @@
       <div id="top-performers-list"></div>
     </div>
   </div>
- <div id="student-summary-section">
-  <h3>📋 Student Result Summary</h3>
+  <div id="student-summary-section">
+    <h3>📋 Student Result Summary</h3>
 
-  <table>
-    <thead>
-      <tr>
-        <th>Category</th>
-        <th>Chess No</th>
-        <th>Name</th>
-        <th>Events (Rank)</th>
-      </tr>
-    </thead>
-    <tbody id="student-summary-body"></tbody>
-  </table>
+    <table>
+      <thead>
+        <tr>
+          <th>Category</th>
+          <th>Chess No</th>
+          <th>Name</th>
+          <th>Events (Rank)</th>
+        </tr>
+      </thead>
+      <tbody id="student-summary-body"></tbody>
+    </table>
 
-  <button onclick="generateStudentSummary()">Generate Summary</button>
-  <button onclick="printStudentSummary()">🖨️ Print Result Summary</button>
-</div>
-<!-- Confirmation Modal -->
-<div id="confirmModal" class="modal-overlay" style="display:none;">
-  <div class="modal-box">
-    <div class="modal-icon">⚠️</div>
-    <div class="modal-text">എല്ലാ ഡാറ്റയും കളയണമെന്ന് നിങ്ങൾക്ക് ഉറപ്പാണോ?</div>
-    <div class="modal-actions">
-      <button onclick="confirmClear(true)" class="danger-button">അതെ, കളയൂ</button>
-      <button onclick="confirmClear(false)">ഇല്ല</button>
+    <button onclick="generateStudentSummary()">Generate Summary</button>
+    <button onclick="printStudentSummary()">🖨️ Print Result Summary</button>
+  </div>
+  <!-- Confirmation Modal -->
+  <div id="confirmModal" class="modal-overlay" style="display:none;">
+    <div class="modal-box">
+      <div class="modal-icon">⚠️</div>
+      <div class="modal-text">എല്ലാ ഡാറ്റയും കളയണമെന്ന് നിങ്ങൾക്ക് ഉറപ്പാണോ?</div>
+      <div class="modal-actions">
+        <button onclick="confirmClear(true)" class="danger-button">അതെ, കളയൂ</button>
+        <button onclick="confirmClear(false)">ഇല്ല</button>
+      </div>
     </div>
   </div>
-</div>
 
 
 
@@ -151,9 +150,9 @@
 
   <script src="script.js"></script>
   <!-- <script type="module" src="firebase.js"></script> -->
-<!-- <script type="module" src="script.js"></script> -->
+  <!-- <script type="module" src="script.js"></script> -->
 
-  
+
 </body>
 
 </html>
